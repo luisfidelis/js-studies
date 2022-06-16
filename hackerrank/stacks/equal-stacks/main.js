@@ -50,7 +50,7 @@ function equalStacks(h1, h2, h3) {
         accumH3.push(currSizeH3)
     }
     let maxHeight = 0;
-    while(accumH1.length && accumH2.length && accumH2.length) {
+    while(accumH1.length && accumH2.length && accumH3.length) {
         const heightH1 = accumH1.slice(-1).pop();
         const heightH2 = accumH2.slice(-1).pop();
         const heightH3 = accumH3.slice(-1).pop();
