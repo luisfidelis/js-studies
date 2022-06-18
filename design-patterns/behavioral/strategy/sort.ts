@@ -35,7 +35,7 @@ class BubleSort implements SortStrategy {
     }
 }
 
-class SortStrategyContext implements SortStrategy {
+class SortStrategyContext {
     
     private strategy: SortStrategy;
     
