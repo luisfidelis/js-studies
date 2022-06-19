@@ -43,7 +43,7 @@ class KnifeFactory implements IProductFactory {
 
 ```
 
-Abstract Factory provides an interface for creating a family of objects without exposing the concrete class.
+Abstract Factory provides an interface for creating a family of objects without specifing the concrete class.
 
 To make it clear, we can imagine an UI interface that should handle different components according to the runtime
 Operating System, such as MacOS or Windows. It can be applied in Color Themes as well, whereas everything should be modified 
