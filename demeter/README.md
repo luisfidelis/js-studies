@@ -49,7 +49,8 @@ But, why is it bad?
 
 So, this code is weak in concern of resilience for many reasons. What if `performance` changes, or even doesn't `parts` exist anymore? 
 
-In case of changes in one node of this "chain" of calls, this code will fall into a build bug or a runtime execution error.
+In case of changes in one node of this "chain" of calls, this code will fall into a build bug or a runtime execution error. Especially
+when this piece of code is replicated in many other methods and classes.
 
 A good solution to this is to create a method `startEngine()` in Car class. This way, our class becomes more resilient against
 `Car` changes.
