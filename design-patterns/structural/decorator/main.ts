@@ -36,7 +36,7 @@ class UDPChannel implements Channel {
     }
 }
 
-class ChannelDecorator implements Channel {
+abstract class ChannelDecorator implements Channel {
 
     protected channel: Channel;
 
