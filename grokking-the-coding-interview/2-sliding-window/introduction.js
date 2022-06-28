@@ -35,7 +35,3 @@ function find_averages_eficient(k, arr) {
     }
     return result;
 }
-
-
-[0,1,3,4,5,6,7,8]
-
